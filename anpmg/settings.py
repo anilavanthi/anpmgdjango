@@ -129,9 +129,9 @@ DATABASES = {
             "autocommit": True,
         },
         'NAME': 'anmpg_data',
-        'USER': 'root',
-        'PASSWORD': 'vanesh143',
-        'HOST': 'localhost',
+        'USER': 'projectdb',
+        'PASSWORD': 'projectdb',
+        'HOST': 'projectdb.cxjy1f7pc38r.ap-south-1.rds.amazonaws.com',
         'PORT': '3306',
         'TEST':{
             'ENGINE': 'django.db.backends.sqlite3',
